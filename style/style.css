@@ -1,0 +1,19 @@
+body{
+    background: url("/img/fundo-jogo-da-cobra-2.png") no-repeat top center fixed;/*bota uma imagen no fundo*/
+    background-size: cover;/*nao se replicar*/
+
+    height: 95vh;/*altura*/
+    width: 95; /*largura*/
+    display: flex;
+    justify-content: center;/*alinha horizontalmente no meio*/
+    align-items: center;/*alinha verticalmente no meio*/
+    flex-direction: column;/*deixa um abaixo do outro*/
+    color: brown;
+    font: 15pt arial;
+    
+}
+#snake{
+    border-radius: 40px;/*deixa as borda arendondada*/
+
+    opacity: 0.5;/*deixa a imagem transparente*/
+}
